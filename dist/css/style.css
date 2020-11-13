@@ -1,0 +1,31 @@
+body {
+  margin: 0 auto;
+  padding: 3rem;
+  width: 50%;
+  font-family: 'Roboto Mono', monospace;
+}
+
+.center {
+  -webkit-perspective: 1500px;
+          perspective: 1500px;
+}
+
+.center img {
+  -webkit-transform: rotateX(10deg) rotateY(-18deg) rotateZ(3deg);
+          transform: rotateX(10deg) rotateY(-18deg) rotateZ(3deg);
+  border-radius: 0.75em;
+  -webkit-box-shadow: 14px 30px 50px black;
+          box-shadow: 14px 30px 50px black;
+  -webkit-transition: .5s;
+  transition: .5s;
+}
+
+.center:hover img {
+  -webkit-transform: rotate(0);
+          transform: rotate(0);
+}
+
+footer {
+  text-align: center;
+  color: #79455C;
+}

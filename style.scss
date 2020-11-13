@@ -1,0 +1,26 @@
+body{
+    margin: 0 auto;
+    padding: 3rem;
+    width: 50%;
+    font-family: 'Roboto Mono', monospace;
+}
+.center{
+    perspective: 1500px;
+
+    img{
+        transform: rotateX(10deg) rotateY(-18deg) rotateZ(3deg);
+        border-radius: 0.75em;
+        box-shadow: 14px 30px 50px hsla(0,0%, 0%, 100);
+        transition: .5s;
+    }
+    &:hover img{
+        transform: rotate(0);
+    }
+}
+
+footer{
+    text-align: center;
+    color: #79455C;
+    
+
+}
